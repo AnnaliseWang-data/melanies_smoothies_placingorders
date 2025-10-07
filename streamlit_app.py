@@ -25,12 +25,7 @@ ingredients_list = st.multiselect(
 )
 # st.write(ingredients_list)
 # st.text(ingredients_list)
-if name_on_order:
-    name_string = ''
 
-    for n in name_on_order:
-        name_string += n
-        
 if ingredients_list:
     ingredients_string = ''
 
